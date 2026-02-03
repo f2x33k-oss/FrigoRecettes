@@ -203,7 +203,7 @@ Le cadrage technique et fonctionnel est finalisé. L'implémentation n'a pas enc
 
 ## 📄 Licence
 
-[À définir]
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
 
 ---
 
