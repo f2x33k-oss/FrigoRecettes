@@ -12,6 +12,23 @@ Le cadrage technique et fonctionnel est finalisé. L'implémentation n'a pas enc
 
 ## 📚 Documentation PHASE 0
 
+### 🌟 [PHASE_0_SYNTHESE.md](./PHASE_0_SYNTHESE.md) ⭐ **NOUVEAU**
+**Vue d'ensemble en une page** - Pour comprendre rapidement le projet
+
+**Contenu** :
+- Concept en diagrammes visuels ASCII
+- Architecture en 3 couches illustrée
+- Modèles de données résumés
+- Flux de données typique
+- Design system condensé
+- Stack technique et scope MVP
+- Roadmap des phases
+- Métriques de succès
+
+> 💡 **Recommandé pour débuter** : Lire ce document en premier pour avoir une vision globale avant de plonger dans les détails.
+
+---
+
 ### 1. [PHASE_0_CADRAGE.md](./PHASE_0_CADRAGE.md)
 **Document principal** - Architecture et définitions
 
@@ -59,6 +76,24 @@ Le cadrage technique et fonctionnel est finalisé. L'implémentation n'a pas enc
 - Configuration Gradle (dépendances)
 
 > ⚠️ **Note** : Les exemples de code sont fournis pour clarifier l'architecture. Ils ne doivent PAS être implémentés pendant la PHASE 0.
+
+---
+
+### 4. [QUICK_START.md](./QUICK_START.md)
+**Guide de démarrage rapide** - Pour passer à l'implémentation
+
+**Contenu** :
+- Checklist avant de commencer
+- PHASE 1 : Initialisation projet (étape par étape)
+- PHASE 2-5 : Ordre d'implémentation détaillé
+- Conventions de code et nommage
+- Configuration Gradle complète
+- Debugging tips et problèmes fréquents
+- Definition of Done du MVP
+- Priorités d'implémentation (P0 à P3)
+- Ressources utiles
+
+> 🚀 **Pour développeurs** : Suivre ce guide pour démarrer l'implémentation après validation de la PHASE 0.
 
 ## 🎯 Objectifs du MVP
 
@@ -133,14 +168,38 @@ Le cadrage technique et fonctionnel est finalisé. L'implémentation n'a pas enc
 
 ## 📖 Comment lire la documentation
 
-**Pour comprendre l'architecture** :  
-→ Commencer par `PHASE_0_CADRAGE.md`
+### Parcours recommandé
 
-**Pour visualiser l'interface** :  
-→ Consulter `PHASE_0_SPECIFICATIONS_VISUELLES.md`
+**1️⃣ Pour une vision globale rapide** :  
+→ Commencer par `PHASE_0_SYNTHESE.md` (vue d'ensemble en une page)
 
-**Pour voir le code à venir** :  
-→ Référence dans `PHASE_0_EXEMPLES_CODE.md`
+**2️⃣ Pour comprendre l'architecture en détail** :  
+→ Lire `PHASE_0_CADRAGE.md` (spécifications complètes)
+
+**3️⃣ Pour visualiser l'interface utilisateur** :  
+→ Consulter `PHASE_0_SPECIFICATIONS_VISUELLES.md` (wireframes + design system)
+
+**4️⃣ Pour voir des exemples de code** :  
+→ Référence dans `PHASE_0_EXEMPLES_CODE.md` (modèles Kotlin)
+
+**5️⃣ Pour démarrer l'implémentation** :  
+→ Suivre `QUICK_START.md` (guide étape par étape)
+
+### Selon votre profil
+
+**Product Owner / Chef de projet** :  
+- `PHASE_0_SYNTHESE.md` (essentiel)
+- `PHASE_0_SPECIFICATIONS_VISUELLES.md` (wireframes)
+
+**Designer UI/UX** :  
+- `PHASE_0_SPECIFICATIONS_VISUELLES.md` (design system)
+- `PHASE_0_SYNTHESE.md` (contexte)
+
+**Développeur Android** :  
+- `PHASE_0_SYNTHESE.md` (vue d'ensemble)
+- `PHASE_0_CADRAGE.md` (architecture)
+- `PHASE_0_EXEMPLES_CODE.md` (référence code)
+- `QUICK_START.md` (implémentation)
 
 ## 📄 Licence
 
